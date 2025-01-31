@@ -1,4 +1,4 @@
-# tasks-cli
+# TODO Task Tracker CLI - PHP Application
 
 This is a simple command-line interface (CLI) application written in PHP for task management. It allows users to create, view, update, and delete tasks, as well as manage their task list using a local JSON file. This README provides detailed instructions on installation, configuration, and usage of the application, along with a complete overview of its functionalities.
 
