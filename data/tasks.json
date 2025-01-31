@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "description": "watch music",
+        "status": "to-do"
+    },
+    {
+        "id": 2,
+        "description": "go with do",
+        "status": "in-progress"
+    },
+    {
+        "id": 3,
+        "description": "code",
+        "status": "done"
+    }
+]
