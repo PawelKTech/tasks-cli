@@ -181,15 +181,16 @@ function showProgressList($status)
     }
 }
 
-function clear()
-{
-    $tasks = loadTasks();
+//Delete all tasks
+// function clear()
+// {
+//     $tasks = loadTasks();
 
-    if (empty($tasks)) {
-        echo "The list ist empty.";
-    }
+//     if (empty($tasks)) {
+//         echo "The list ist empty.";
+//     }
 
-    saveTasks([]);
+//     saveTasks([]);
 
-    echo "All tasks have been deleted successfully.\n";
-}
+//     echo "All tasks have been deleted successfully.\n";
+// }

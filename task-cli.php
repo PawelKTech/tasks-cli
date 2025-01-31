@@ -51,7 +51,7 @@ $commands = [
             showUsage("Error: Task ID is required.");
         }
     },
-    "edit" => function () use ($options) {
+    "update" => function () use ($options) {
         if (isset($argv[2]) && isset($argv[3])) {
             editTask($argv[2], $argv[3]);
         } else {
@@ -82,11 +82,11 @@ $commands = [
         } else {
             showUsage("Error: Task ID is required.");
         }
-    },
-
-    "clear" => function () use ($options) {
-        clear();
     }
+    //Clear all task
+    // "clear" => function () use ($options) {
+    //     clear();
+    // }
 ];
 
 if (array_key_exists($command, $commands)) {
